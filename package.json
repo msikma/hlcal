@@ -1,0 +1,30 @@
+{
+  "name": "@dada78641/hlcal",
+  "description": "Generates an iCal feed from the Havenloods agenda",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gencal": "node src/gencal.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "package.json",
+    "readme.md"
+  ],
+  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/msikma/hlcal",
+  "license": "MIT",
+  "dependencies": {
+    "@sindresorhus/slugify": "^2.2.1",
+    "cheerio": "^1.0.0",
+    "ical-generator": "^9.0.0",
+    "luxon": "^3.7.2",
+    "user-agents": "^1.1.659"
+  }
+}
